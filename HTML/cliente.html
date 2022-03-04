@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>PEDIDO DE PASTEL</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo"></div>
+      <a href="pastelero.html">Ver pedidos</a>
+    </header>
+    <form action="get">
+      <fieldset class="contacto">
+        <legend>Datos de contacto</legend>
+        <label for="name">Nombre</label>
+        <input type="text" name="name" id="name" />
+        <label for="phone">Telefono</label>
+        <input type="number" name="phone" id="phone" />
+        <label for="email">Correo electronico</label>
+        <input type="email" name="email" id="email" />
+        <label for="description">Descripcion del pastel</label>
+        <textarea
+          name="description"
+          id="description"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>Sabores pasteles</legend>
+        <label for="fresa">Fresa ($50)</label>
+        <input type="checkbox" name="fresa" id="fresa">
+        <label for="chocolate">Chocolate ($50)</label>
+        <input type="checkbox" name="chocolate" id="chocolate">
+        <label for="vainilla">Vainilla ($50)</label>
+        <input type="checkbox" name="vainilla" id="vainilla">
+      </fieldset>
+      <fieldset>
+        <legend>Adornos</legend>
+        <label for="chocolates">Chocolates</label>
+        <input type="checkbox" name="chocolates" id="chocolates">
+        <label for="lunetas">Lunetas</label>
+        <input type="checkbox" name="lunetas" id="lunetas">
+        <label for="piedras_choco">Piedras chocolate</label>
+        <input type="checkbox" name="piedras_choco" id="piedras_choco">
+
+      </fieldset>
+    </form>
+  </body>
+</html>
